@@ -1,0 +1,1 @@
+Selamat datang <?php echo $nama; ?>, Mau keluar? klik <a href="dashboard/keluar">disini</a>
