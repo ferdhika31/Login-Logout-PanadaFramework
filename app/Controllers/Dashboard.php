@@ -25,9 +25,9 @@ class Dashboard extends Resources\Controller
 
         $data = array(
         	'judul' => 'Test Login',
-        	'nama' => $this->session->getValue('nama')
+        	'nama' => $this->session->getValue('nama'),
+        	'url'	=> $this->uri->baseUri
         );
-        
         $this->output('dashboard', $data); //load view
     }
 

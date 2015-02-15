@@ -1,1 +1,1 @@
-Selamat datang <?php echo $nama; ?>, Mau keluar? klik <a href="dashboard/keluar">disini</a>
+Selamat datang <?php echo $nama; ?>, Mau keluar? klik <a href="<?php echo $url;?>index.php/dashboard/keluar">disini</a>
